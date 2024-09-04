@@ -16,8 +16,10 @@ def funGlobal():
     print(variableGlobal)
 
 # ! SCOPE POR DEFECTO => ambito especial de python, que se carga cada vez que se ejecuta
-# * palabras clave, funciones por defecto, excepciones,  etc
+# palabras clave, funciones por defecto, excepciones,  etc
 
 #si nosotros queremos ver lo que esta definido de forma local y global 
 print(locals()) #local 
 print(globals()) #global
+
+# TODO: podemos acceder a estos scopes, mas no modificarlos
